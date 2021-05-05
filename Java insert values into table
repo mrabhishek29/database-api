@@ -41,7 +41,7 @@ public class InsertStatement
             stmt = con.createStatement();
  
             String sql = "INSERT INTO EMPLOYEE VALUES" +
-                    "(111, 'Navin', 'Sharma', 'CEO')";
+                    "(111, 'Abhishek', 'Sharma', 'Student')";
  
             //Step 4 : Executing The executeUpdate() method as we are executing INSERT statement
  
