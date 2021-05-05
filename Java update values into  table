@@ -39,8 +39,8 @@ public class UpdateStatement
  
             stmt = con.createStatement();
              
-            String sql = "UPDATE EMPLOYEE SET FIRST_NAME='Abhishek', " +
-                    "LAST_NAME='Sharma' WHERE DISIGNATION='CEO'";
+            String sql = "UPDATE EMPLOYEE SET FIRST_NAME='Aniket', " +
+                    "LAST_NAME='Kumar' WHERE DISIGNATION='Student'";
  
             //Step 4 : Executing executeUpdate() method as we are executing UPDATE statement
  
